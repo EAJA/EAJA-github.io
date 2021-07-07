@@ -1,1 +1,1 @@
-[EAJA](https://EAJA/github.io/)
+[EAJA](https://EAJA.github.io/)
