@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "테스트 용"
+date:   2021-07-07 20:27:11 +0900
+categories: test
+---
+
+이거 **잘 올라가나?**
+
+## yes
+| ㅁ   | ㄴ  |      ㅇ |
+| :--- | --- | ------: |
+| 123  | 456 | 8901324 |
+
+```js
+function pipe() {
+    let arr = [...arguments];
+    return function (param){
+        let b = param;
+        for(let i = 0 ; i < arr.length ; i++){
+            b = arr[i](b);
+        }
+        return b;
+    }
+}
+```
