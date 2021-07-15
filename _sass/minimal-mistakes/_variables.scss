@@ -34,22 +34,41 @@ $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
-$type-size-1: 2.441em !default; // ~39.056px
-$type-size-2: 1.953em !default; // ~31.248px
-$type-size-3: 1.563em !default; // ~25.008px
-$type-size-4: 1.25em !default; // ~20px
-$type-size-5: 1em !default; // ~16px
-$type-size-6: 0.75em !default; // ~12px
-$type-size-7: 0.6875em !default; // ~11px
-$type-size-8: 0.625em !default; // ~10px
+$type-size-1: 25px !default; //5
+$type-size-2: 22px !default; //5
+$type-size-3: 20px !default; //5
+$type-size-4: 18px !default; //5
+$type-size-5: 16px !default; // base
+$type-size-6: 14px !default; //
+$type-size-7: 12px !default; //5
+$type-size-8: 10px !default; //
+
+/* 반응형 폰트사이즈
+$type-size-1: 1.659em !default; //~ *1.25
+$type-size-2: 1.382em !default; //~ *1.25
+$type-size-3: 1.152em !default; //~ *1.25
+$type-size-4: 0.96em !default; //~ *1.25
+$type-size-5: 0.8em !default; //~ default
+$type-size-6: 0.6em !default; //~ *0.8
+$type-size-7: 0.51em !default; //~ *0.85
+$type-size-8: 0.46em !default; //~ *0.9 
+*/
 
 /* headline scale */
+$h-size-1: 27px !default; // ~25.008px
+$h-size-2: 25px !default; // ~20px
+$h-size-3: 23px !default; // ~18px
+$h-size-4: 21px !default; // ~17px
+$h-size-5: 19px !default; // ~16.5px
+$h-size-6: 17px !default; // ~16px
+
+/* 반응형 디폴트 사이즈
 $h-size-1: 1.563em !default; // ~25.008px
 $h-size-2: 1.25em !default; // ~20px
 $h-size-3: 1.125em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
-$h-size-6: 1em !default; // ~16px
+$h-size-6: 1em !default; // ~16px */
 
 /*
    Colors
@@ -156,8 +175,8 @@ $max-width: $x-large !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width: 225px !default;
+$right-sidebar-width-wide: 250px !default;
 
 /*
    Other
